@@ -1,0 +1,15 @@
+# ISFire (Fire_Smoke_4C) dataset configuration - YOLO format
+# Dataset: https://huggingface.co/datasets/shahriar-5/Fire_Smoke_4C (CC-BY-4.0)
+# Download with: python scripts/download_dataset.py --output ./ISFire
+# Then update the paths below to match the extracted folder structure.
+
+names:
+  - black smoke
+  - blue fire
+  - white-gray smoke
+  - yellow-orange fire
+nc: 4
+
+train: ./ISFire/train/images
+val: ./ISFire/valid/images
+test: ./ISFire/test/images

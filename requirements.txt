@@ -1,0 +1,11 @@
+# FireNet-D5 - pinned environment
+# Python 3.10+ recommended (developed on Python 3.12)
+ultralytics==8.3.33
+timm>=0.9.0          # required by the patched conv.py (SE / attention helpers)
+torch>=2.0.0
+torchvision>=0.15.0
+grad-cam==1.4.6       # only needed for scripts/gradcam.py
+numpy
+opencv-python
+pillow
+pyyaml

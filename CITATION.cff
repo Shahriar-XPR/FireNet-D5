@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript below."
+title: "FireNet-D5: A Genetic Algorithm-Optimized Architecture with BiFPN and SE Attention for Multi-Class Indoor Fire and Smoke Detection"
+type: software
+authors:
+  - family-names: "Sozol"
+    given-names: "Shafak Shahriar"
+    # Add all co-authors here before publishing
+license: AGPL-3.0
+preferred-citation:
+  type: article
+  title: "FireNet-D5: A Genetic Algorithm-Optimized Architecture with BiFPN and SE Attention for Multi-Class Indoor Fire and Smoke Detection"
+  journal: "PLOS ONE"
+  year: 2026
+  notes: "Under revision, manuscript PONE-D-26-11542"

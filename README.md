@@ -142,7 +142,7 @@ python /path/to/scripts/gradcam.py --weights /path/to/weights/best.pt --source i
 
 ## License
 
-Because this repository contains modified Ultralytics source files, it is distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**, the same license as the upstream project. See `LICENSE`. The ISFire dataset is licensed separately under CC-BY-4.0.
+Because this repository contains modified Ultralytics source files, it is distributed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**, the same license as the upstream project. See `LICENSE`.
 
 ## Citation
 

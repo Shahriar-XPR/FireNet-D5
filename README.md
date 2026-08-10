@@ -108,7 +108,7 @@ Search settings: **10 generations**, **100 epochs** per candidate, image size 64
 bash scripts/train.sh
 ```
 
-This runs `yolo task=detect mode=train model=yolov5s.yaml data=configs/data.yaml pretrained=yolov5s.pt epochs=150 imgsz=640 workers=4 seed=42`. Because of the applied patches, `yolov5s.yaml` resolves to the FireNet-D5 architecture and the GA-tuned hyperparameters are used automatically. The fixed seed (42) with `deterministic: True` makes the run reproducible up to CUDA nondeterminism.
+This runs FireNet-D5 architecture and the GA-tuned hyperparameters are used automatically. The fixed seed (42) with `deterministic: True` makes the run reproducible up to CUDA nondeterminism.
 
 ### 5. Evaluate
 
